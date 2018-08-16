@@ -1,6 +1,7 @@
 # AniGIF-AHK
 AHK wrapper for [AniGIF](https://www.codeproject.com/Articles/16970/AniGIF-a-simple-animated-GIF-custom-control).
 
+### Usage
 Create an AniGIF control either by `AniGIF_Add()` or `New AniGIF()`.
 
 The usage is same as `Gui Add`, except an additional *Link* parameter at the end (optional). Examples:
@@ -15,7 +16,7 @@ gif2.LoadGifFromFile("another.gif")
 Gui, Show, w400
 ```
 
-**Methods**:
+### Methods
 - LoadGifFromFile(FileName)
 - UnloadGif()
 - Zoom(bZoom := true) ; bZoom -- TRUE = Zoom In by 10%, FALSE = Zoom Out by 10%
