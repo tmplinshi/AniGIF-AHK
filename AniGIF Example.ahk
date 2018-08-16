@@ -1,6 +1,6 @@
 ﻿#NoEnv
 SetWorkingDir, %A_ScriptDir%
-#Include <AniGIF>
+#Include AniGIF.ahk
 
 gif1 := New AniGIF("w280 h150 Center Border", "pacman.gif")
 AniGIF_Add("x+50", "Flag_France.gif", "https://autohotkey.com") ; Omit w and h to autosize the control
