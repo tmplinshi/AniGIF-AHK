@@ -2,14 +2,13 @@
 AHK wrapper for [AniGIF](https://www.codeproject.com/Articles/16970/AniGIF-a-simple-animated-GIF-custom-control).
 
 ### Usage
-Create an AniGIF control either by `AniGIF_Add()` or `New AniGIF()`.
 
-**AniGIF_Add(Options:="", FileName, Link:="")**
+`AniGIF_Add(Options:="", FileName, Link:="")`
 - *Options* - (Optional) Control options same as `Gui Add`
 - *FileName* - The GIF filename
 - *Link* - (Optional) Url to open when clicking the gif image
 
-Examples:
+### Examples:
 
 ```AutoHotkey
 AniGIF_Add("xm w200 h200 Center BackGroundRed", "test.gif", "http://autohotkey.com")
