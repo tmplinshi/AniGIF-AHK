@@ -6,7 +6,7 @@ AHK wrapper for [AniGIF](https://www.codeproject.com/Articles/16970/AniGIF-a-sim
 `AniGIF_Add(Options:="", FileName, Link:="")`
 - *Options* - (Optional) Control options same as `Gui Add`
 - *FileName* - The GIF filename
-- *Link* - (Optional) Url to open when clicking the gif image
+- *Link* - (Optional) Url to open when clicking on the gif image
 
 ### Examples
 
