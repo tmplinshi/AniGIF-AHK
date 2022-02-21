@@ -1,5 +1,5 @@
 # AniGIF-AHK
-AHK wrapper for [AniGIF](https://www.codeproject.com/Articles/16970/AniGIF-a-simple-animated-GIF-custom-control).
+AHK wrapper for [AniGIF](https://www.codeproject.com/Articles/16970/AniGIF-a-simple-animated-GIF-custom-control)
 
 ### Usage
 
